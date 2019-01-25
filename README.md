@@ -3,3 +3,6 @@
   requests and response information in a `har` format.
   It is indeed a json format and the video and images in it are encoded with base64. As a result, I write a Python script to extract all the `ts` files and save
   them under the current directory. Using `ffmpeg` or other tools, we can concatenate these `ts` files to produce an mp4 file.
+
+# Similar project
+[har-extractor](https://pypi.org/project/har-extractor/)
